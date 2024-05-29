@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videojuegos</title>
+    <link rel="icon" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEWqlipt-syXpQ_VxL-PnMOTve0SQFUb7guF8euNOouDtt0caEvYlB5w8WkYrozyWcqVDjGNf_YhMhYy6-0nIemqf_M6nUxZpaD2Exf_51zXLfBiwh9zW9hjg4bLW7_1gAjeEP9gdMGzM/s1600/FreeMarioBros+by+PrintNFun+%25289%2529.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@100..800&family=Anton&family=Gluten:wght@100..900&family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/minecraft-3" rel="stylesheet">
+                
+    <style>
+        *{
+             color-scheme: dark;
+        }
+        body {
+            background-color: rgb(31, 34, 48);
+            max-width: 1024px;
+            padding: 15px; 
+            margin: 0 auto;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        h1 { 
+            font-size: 40px;  
+            font-family: 'Minecraft','JetBrains Mono', monospace; 
+        }
+        h2{
+            font-size: 35px;
+            font-weight: 500;
+            margin: 0px;
+            font-family:  'JetBrains Mono', monospace; 
+        }
+
+        p{
+            font-size: 17px;
+            font-weight: 300;
+            font-family:  'JetBrains Mono', monospace; 
+        }
+
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+       
+        .grid { 
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 15px; 
+            height: 100%;
+            
+        }
+        .rounded-container { 
+            background-color: rgb(41, 45, 61);  
+            padding: 40px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            
+        }
+
+        .flex-content {
+            display: flex; 
+            gap: 15px;
+        }
+        .center{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .column{
+            flex-direction: column; 
+        }
+        .column-end{
+            flex-direction: column; 
+            justify-content: flex-end;
+            align-items: flex-end;
+        }
+        .column-start{
+            flex-direction: column; 
+            justify-content: start;
+            align-items: center;
+        }
+        .row{
+            flex-direction: row; 
+        }
+        .primary {
+            background-color: rgb(68, 165, 200);  
+        }
+
+        @media (max-width: 840px) {
+            .grid {
+                grid-template-columns: 1fr;
+            }
+
+            .grid:first-child .left{
+                flex-direction: column-reverse;
+            }
+        }
+    </style>
+</head>
+<body> 
+    <section class="grid" > 
+        <div class="left flex-content column-end" style="height: 100%; max-height: 730px;">
+            
+            <article class="rounded-container center" style="padding: 10px 0px; width: 100%; background-color: #0bceff;">
+                <img style="width: 70px;" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhEWqlipt-syXpQ_VxL-PnMOTve0SQFUb7guF8euNOouDtt0caEvYlB5w8WkYrozyWcqVDjGNf_YhMhYy6-0nIemqf_M6nUxZpaD2Exf_51zXLfBiwh9zW9hjg4bLW7_1gAjeEP9gdMGzM/s1600/FreeMarioBros+by+PrintNFun+%25289%2529.png" alt="">
+                <h1 style="color: black;"><b>Videojuegos</b></h1>
+            </article>
+            <article class="rounded-container  column-end" style="padding: 0px; height: 100%; min-height: 300px; width: 100%;  overflow: hidden;">
+                 <img  style=" width: 100%; height: 100%; min-height: 300px; object-fit: cover;" src="https://miro.medium.com/v2/resize:fit:1400/1*18VMshlF7fpNBjy6NwhB5A.gif" alt="">
+            </article>
+            
+        </div>
+        
+        <div class="flex-content column-start" style="width: 100%; height: 100%; max-height: 730px;" </div>
+            
+            <article class="rounded-container column" style="height: fit-content;"> 
+                    <div class="flex-content row center" style="  height: 100%;"  > 
+                         <img style="width: 90px; aspect-ratio: 1/1;" src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGZ6aXpzbTRjdWc5dDNiODl5ZTF5d21objE3MTJsZzVkY2RqdjFsNyZlcD12MV9naWZzX3NlYXJjaCZjdD1z/19eB0RWAzSYayHoy9z/giphy.webp" alt="">
+                        <h2>¿Qué son los videojuegos?</h2>
+                    </div> 
+                <p>Los videojuegos son una forma de entretenimiento que combina contenido audiovisual y se juega en una pantalla, ya sea en una computadora, consola de videojuegos o teléfono móvil.</p>
+                <img style="width: 100%; height: auto;"   src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9tLoSdqrCg7R90nik8wmR-ccMHMhawHB4N-axzG_9VA4Ita2RnBIy8Xa8vKkc0M8TqjMYofKua8yNDwRBr9nSG6Sz8d_KG9I72-mseEhq0ThYPsQqcpEAUBsYKSkiNwY2Eq2Qe3uPqVUbJcBkL8tAUqZ1TQLTXC1XPuf5oFAYPDJK3zc8WCQkQ_4Ba1k/w640-h356/Mario%20Bros%20059.png" alt="">
+            
+            </article>  
+            <article class="rounded-container  column-end" style="padding: 0px; height: 100%; min-height: 123px; width: 100%;  overflow: hidden;">
+                <img  style=" width: 100%; height: 100%; min-height: 130px; object-fit: cover;" src="https://rare-gallery.com/mocahbig/412610-Pacman-3D-arcade-retro-games-neon.jpg" alt="">
+            </article>
+        </div>
+        
+    </section> 
+    
+</body>
+</html>
